@@ -1,0 +1,4 @@
+#cmakedefine USE_MYMATH 
+#ifdef USE_MYMATH
+    #include "mathFunctions.h"
+#endif
